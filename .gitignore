@@ -1,0 +1,30 @@
+### editor stuff ###
+*~
+*.swp
+*.vim
+*.sublime-*
+*.sublime-project
+*.sublime-workspace
+
+### C files
+bin/*
+*.o
+
+### common dirs ###
+.cache
+.tmp
+log/*
+vendor/*
+
+### misc $$$
+.hidden
+deps
+depend
+.tags
+tags
+doc
+vgcore.*
+
+### critical ###
+.env
+.env.production
